@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project #1</string>
+	<string name="night_mode">Modo noche</string>
+	<string name="night_mode_amoled">Modo super oscuro</string>
+	<string name="night_mode_off">Apagado</string>
+	<string name="night_mode_on">Encendido</string>
+	<string name="night_mode_system">Según el sistema</string>
+</resources>

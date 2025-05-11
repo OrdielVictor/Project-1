@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+	<PreferenceCategory
+	    android:title="Apariencia"
+		app:iconSpaceReserved="false">
+	    <ListPreference
+		    android:key="night_mode"
+			android:icon="@drawable/dark_mode_24px"
+			android:title="@string/night_mode"
+			android:summary="%s"
+			android:entries="@array/nightMode_entries"
+			android:entryValues="@array/nightMode_values"
+			android:defaultValue="system" />
+			
+		<SwitchPreferenceCompat
+		    android:key="amoled_mode"
+			android:icon="@drawable/night_sight_max_24px"
+			android:title="@string/night_mode_amoled"
+			android:defaultValue="false" />
+	</PreferenceCategory>
+</PreferenceScreen>

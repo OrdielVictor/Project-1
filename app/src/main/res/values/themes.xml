@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="switchPreferenceCompatStyle">@style/AppTheme.MaterialSwitchPreference</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    
+    <style name="AppTheme" parent="Base.AppTheme">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

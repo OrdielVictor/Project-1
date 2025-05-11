@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.AppTheme" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
+	    <item name="switchPreferenceCompatStyle">@style/AppTheme.MaterialSwitchPreference</item>
+		<item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    
+    <style name="AppTheme.Black" parent="ThemeOverlay.Material3.DynamicColors.DayNight">
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="colorSurfaceContainer">#212121</item>
+        <item name="colorSurfaceContainerLow">?colorSurfaceContainer</item>
+        <item name="colorSurfaceContainerLowest">?colorSurfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">?colorSurfaceContainer</item>
+        <item name="colorSurfaceContainerHighest">?colorSurfaceContainer</item>
+        <item name="colorSurfaceVariant">?colorSurfaceContainer</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="switchPreferenceCompatStyle">@style/AppTheme.MaterialSwitchPreference</item>
+  </style>
+</resources>
